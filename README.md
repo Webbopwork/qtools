@@ -1,6 +1,13 @@
 # QTools
 QTools, or QuickTools are a bunch of scripts I made to speed up processes for myself, any now also you!
 
+## Using
+
+To use a QTool with the `qtool` command set up, follow this format:
+```
+qtool {COMMAND NAME(same as directory in the repo)} {ALL COMMAND ARGUMENTS YOU WISH TO USE}
+```
+
 ## Setup
 
 To initialise, add in your ~/.bashsrc
