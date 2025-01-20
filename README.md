@@ -7,6 +7,16 @@ To use a QTool with the `qtool` command set up, follow this format:
 ```
 qtool {COMMAND NAME(same as directory in the repo)} {ALL COMMAND ARGUMENTS YOU WISH TO USE}
 ```
+Examples:
+```
+qtool chkstat firefox
+```
+```
+qtool chkstat qtool
+```
+```
+qtool pcinfo
+```
 
 ## Setup
 
