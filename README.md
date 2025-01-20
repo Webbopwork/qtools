@@ -1,5 +1,7 @@
-# qtools
+# QTools
 QTools, or QuickTools are a bunch of scripts I made to speed up processes for myself, any now also you!
+
+## Setup
 
 To initialise, add in your ~/.bashsrc
 ```
@@ -14,3 +16,5 @@ or
 if you wanna automatically initialise the `qtool` command.
 
 The commands work pasted in your terminal too.
+
+Alternatively you can download any script you wish and use it separately.
