@@ -9,5 +9,5 @@ qtool flatlink [NAME / ID](required)
 
 No parsing:
 ```
-qtool flatlink [NAME](required) [](optional)
+qtool flatlink [NAME](required) [ID](optional)
 ```
