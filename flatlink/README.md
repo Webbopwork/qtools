@@ -1,16 +1,12 @@
 # FlatLink
-
 Make your Flatpak programs accessible through aliases.
-
-## Get ID / NAME based on the one provided:
+# Usage
+**NOTE**: This method passes the input via REGEX.
+Get ID / NAME based on the one provided: 
 ```
 qtool flatlink [NAME / ID](required)
 ```
-### NOTICE:
-This method passes the input through REGEX.
-
-
-## No parsing:
+Run without parsing: 
 ```
 qtool flatlink [NAME](required) [ID](optional)
 ```
