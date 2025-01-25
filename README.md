@@ -19,7 +19,7 @@ To initialise, add this to your ~/.bashsrc
 ```
 alias qtool_setup=". <(curl -s https://raw.githubusercontent.com/Webbopwork/qtools/refs/heads/main/qtool/setup.sh)"
 ```
-or run this command in your terminal
+or run this command in your terminal (adding this to ~/.bashsrc will initialise `qtool` without using `qtool_setup`)
 ```
 . <(curl -s https://raw.githubusercontent.com/Webbopwork/qtools/refs/heads/main/qtool/setup.sh)
 ```
