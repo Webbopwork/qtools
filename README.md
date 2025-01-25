@@ -11,6 +11,7 @@ Examples:
 qtool chkstat firefox
 qtool chkstat qtool
 qtool pcinfo
+qtool flatlink steam | steam
 ```
 
 ## Setup
