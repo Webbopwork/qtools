@@ -6,21 +6,21 @@ echo "$#"
 
 #Install DaVinci Resolve
 if [ $# -eq 0 ] ; then
-	#echo "User error: No arguments provided" >&2
+	echo "User error: No arguments provided" >&2
 	echo "Please make the first argument the path to the DaVinci Resolve .run installer file."
 	exit 1
 elif [ ! -e "${1}" ]; then
-	#echo "User error: First argument provided is not a existing path" >&2
+	echo "User error: First argument provided is not a existing path" >&2
 	echo "Please make the first argument the path to the DaVinci Resolve .run installer file."
-	exit 1
+	return 1
 elif [ ! -f "${1}" ]; then
-	#echo "User error: First argument provided is not a file path" >&2
+	echo "User error: First argument provided is not a file path" >&2
 	echo "Please make the first argument the path to the DaVinci Resolve .run installer file."
-	exit 1
+	return 1
 elif [ ! -x "${1}" ]; then
-	#echo "User error: First argument provided is not a executable file path" >&2
+	echo "User error: First argument provided is not a executable file path" >&2
 	echo "Please make the first argument the path to the DaVinci Resolve .run installer file. The file has to have it's permission set to allow it to be executed."
-	exit 1
+	return 1
 fi
 SKIP_PACKAGE_CHECK=1 "${1}"
 
