@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "$@"
+echo "$1"
+echo "$#"
+
 #Install DaVinci Resolve
 if [ $# -eq 0 ] ; then
 	echo "User error: No arguments provided" >&2
